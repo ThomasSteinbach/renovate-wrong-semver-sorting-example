@@ -1,6 +1,7 @@
 {
     "extends": [
-        "config:best-practices"
+        "config:best-practices",
+        ":disableRateLimiting"
     ],
     "separateMultipleMinor": true
 }
