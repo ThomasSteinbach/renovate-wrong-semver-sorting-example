@@ -1,0 +1,17 @@
+---
+global:
+  edition: ce
+  ingress:
+    configureCertmanager: false
+    tls:
+      enabled: false
+upgradeCheck:
+  enabled: false
+prometheus:
+  install: false
+certmanager:
+  install: false
+nginx-ingress:
+  enabled: false
+gitlab-zoekt:
+  install: false

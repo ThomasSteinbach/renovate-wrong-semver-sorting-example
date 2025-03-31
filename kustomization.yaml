@@ -1,0 +1,8 @@
+helmCharts:
+  # https://gitlab.com/gitlab-org/charts/gitlab/-/blob/master/Chart.yaml
+  - name: gitlab
+    repo: https://charts.gitlab.io
+    version: 7.1.8
+    releaseName: gitlab
+    namespace: gitlab
+    valuesFile: values.yaml
